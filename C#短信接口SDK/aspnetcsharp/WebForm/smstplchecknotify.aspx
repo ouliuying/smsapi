@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="smstplchecknotify.aspx.cs" Inherits="aspnetcsharp.WebForm.smstplchecknotify" %>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="smsstatusnotify.aspx.cs" Inherits="aspnetcsharp.WebForm.smsstatusnotify" %>

@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "GetReplyMsg";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    string appid = "7ad27c449a214e25baf554d385808b7c";
+    string appkey = "eba0bbe07e544293a05481b813a5b149";
+    string apiurl = "";
+}
+@section subscript
+{
+    <script type="text/javascript">
+        $(function () {
+            $("#submitbtn").click(function () {
+                $.post("/home/GetReplyMsgImp", $("form").serialize(), function (data) {
+                    $("#resshow").val(data);
+                });
+                return false;
+            });
+        });
+    </script>
+}
+<h3 class="testheader">获取回复</h3>
+<div class="form-group">
+    <label for="">接口连接:</label>
+    <input type="text" name="apiurl" class="form-control" value="@apiurl" />
+</div>
+<div class="form-group">
+    <label for="">AppID:</label>
+    <input type="text" name="appid" class="form-control" value="@appid" />
+</div>
+<div class="form-group">
+    <label for="">AppKey:</label>
+    <input type="text" name="appkey" class="form-control" value="@appkey" />
+</div>
+

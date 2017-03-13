@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "AddSmsTpl";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    string appid = "7ad27c449a214e25baf554d385808b7c";
+    string appkey = "eba0bbe07e544293a05481b813a5b149";
+    string smstpl = "尊敬的{{公司}}的{{客户姓名}}{{职位}}，您申请开通爱客云短信的申请已经被接受，我们客服将在您接收到短信后联系您，谢谢！";
+}
+@section subscript
+{
+    <script type="text/javascript">
+        $(function () {
+            $("#submitbtn").click(function () {
+                $.post("/home/addsmstplimp", $("form").serialize(), function (data) {
+                    $("#resshow").val(data);
+                });
+                return false;
+            });
+        });
+    </script>
+}
+<h3 class="testheader">添加短信模版</h3>
+<div class="form-group">
+    <label for="">AppID:</label>
+    <input type="text" name="appid" class="form-control"  value="@appid"/>
+</div>
+<div class="form-group">
+    <label for="">AppKey:</label>
+    <input type="text" name="appkey" class="form-control" value="@appkey" />
+</div>
+
+<div class="form-group">
+    <label for="">模版内容:</label>
+    <textarea class="form-control" style="height:180px;" name="smstpl">@smstpl</textarea>
+</div>

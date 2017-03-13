@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <link href="/Content/bootstrap-theme.css" rel="stylesheet" />
+    <script src="/Scripts/jquery-2.2.0.js"></script>
+    <script src="/Scripts/bootstrap.js"></script>
+    <style type="text/css">
+        body {
+            padding-top:50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align:center;">ikyun.net短信接口测试样例</h2>
+            <div class="row">
+                 <div class="col-md-6">
+                     <div class="list-group">
+                         <a href="#" class="list-group-item active">
+                              web form 样例
+                         </a>
+                         <a href="~/WebForm/SendSmsMsg.aspx" class="list-group-item">发送短信</a>
+                         <a href="~/WebForm/GetReplyMsg.aspx" class="list-group-item">获取上行短信</a>
+                         <a href="~/WebForm/GetAmount.aspx" class="list-group-item">获取剩余金额</a>
+                     </div>
+                 </div>
+                <div class="col-md-6">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">
+                          MVC 样例
+                        </a>
+                        <a href="/home/SendSmsMsg" class="list-group-item">发送短信</a>
+                        <a href="/home/GetReplyMsg" class="list-group-item">获取上行短信</a>
+                        <a href="/home/GetAmount" class="list-group-item">获取剩余金额</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+</html>
