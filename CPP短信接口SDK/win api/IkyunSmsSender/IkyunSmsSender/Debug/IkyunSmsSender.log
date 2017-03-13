@@ -1,0 +1,45 @@
+﻿Build started 2017/3/13 17:27:08.
+     1>Project "D:\ikyunexample-src\CPP短信接口\win api\IkyunSmsSender\IkyunSmsSender\IkyunSmsSender.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\IkyunSmsSender.tlog\IkyunSmsSender.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\IkyunSmsSender.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D IKYUNSMSSENDER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\IkyunSmsSender.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D IKYUNSMSSENDER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D IKYUNSMSSENDER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\IkyunSmsSender.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt IkyunSmsSender.cpp IkyunSmsSenderC.cpp
+         IkyunSmsSenderC.cpp
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.h(45): warning C4251: 'IkyunApi::CIkyunSmsSender::mApiUrl' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'IkyunApi::CIkyunSmsSender'
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.h(46): warning C4251: 'IkyunApi::CIkyunSmsSender::mAppID' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'IkyunApi::CIkyunSmsSender'
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.h(47): warning C4251: 'IkyunApi::CIkyunSmsSender::mAppKey' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'IkyunApi::CIkyunSmsSender'
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.h(48): warning C4251: 'IkyunApi::CIkyunSmsSender::mHost' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'IkyunApi::CIkyunSmsSender'
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.h(49): warning C4251: 'IkyunApi::CIkyunSmsSender::mUri' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'IkyunApi::CIkyunSmsSender'
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssenderc.cpp(15): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssenderc.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssenderc.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+         IkyunSmsSender.cpp
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.h(45): warning C4251: 'IkyunApi::CIkyunSmsSender::mApiUrl' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'IkyunApi::CIkyunSmsSender'
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.h(46): warning C4251: 'IkyunApi::CIkyunSmsSender::mAppID' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'IkyunApi::CIkyunSmsSender'
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.h(47): warning C4251: 'IkyunApi::CIkyunSmsSender::mAppKey' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'IkyunApi::CIkyunSmsSender'
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.h(48): warning C4251: 'IkyunApi::CIkyunSmsSender::mHost' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'IkyunApi::CIkyunSmsSender'
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.h(49): warning C4251: 'IkyunApi::CIkyunSmsSender::mUri' : class 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of class 'IkyunApi::CIkyunSmsSender'
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.cpp(281): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\ikyunexample-src\cpp短信接口\win api\ikyunsmssender\ikyunsmssender\ikyunsmssender.cpp(305): warning C4244: 'initializing' : conversion from 'LONGLONG' to 'long', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ikyunexample-src\CPP短信接口\win api\IkyunSmsSender\Debug\IkyunSmsSender.dll" /INCREMENTAL /NOLOGO Winhttp.lib comsuppw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"ikyunsender.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ikyunexample-src\CPP短信接口\win api\IkyunSmsSender\Debug\IkyunSmsSender.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\lib\IkyunSmsSender.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\IkyunSmsSender.obj
+         Debug\IkyunSmsSenderC.obj
+         Debug\stdafx.obj
+            Creating library ..\lib\IkyunSmsSender.lib and object ..\lib\IkyunSmsSender.exp
+         IkyunSmsSender.vcxproj -> D:\ikyunexample-src\CPP短信接口\win api\IkyunSmsSender\Debug\IkyunSmsSender.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\IkyunSmsSender.tlog\unsuccessfulbuild".
+         Touching "Debug\IkyunSmsSender.tlog\IkyunSmsSender.lastbuildstate".
+     1>Done Building Project "D:\ikyunexample-src\CPP短信接口\win api\IkyunSmsSender\IkyunSmsSender\IkyunSmsSender.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.50

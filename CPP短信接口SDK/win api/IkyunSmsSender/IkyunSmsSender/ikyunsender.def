@@ -1,0 +1,7 @@
+LIBRARY
+EXPORTS
+   SendSms   @1
+
+   GetAmount   @2
+
+   GetReplyMsg   @3
