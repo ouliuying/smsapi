@@ -20,7 +20,7 @@ Sub IKYUN_SMS_SENDER()
         msgitem1 = Worksheets(1).Cells(r, 2).value
         msgitem2 = Worksheets(1).Cells(r, 3).value
          msg = msgitem1 & "你好" & msgitem2
-         iksender.ApiUrl = "http://sms.ikyun.net/abcapi/sms/ebpbcons" ' 这个连接必须替换成你帐号的连接
+         iksender.ApiUrl = "http://sms.ikyun.net/apiex/sms/ebpbcons" ' 这个连接必须替换成你帐号的连接
          iksender.AppID = "c0cb7b8ad8e64296a88c99d923345148" ' 替换成你添加的APPID
          iksender.AppKey = "c4d963e9158444b7b71e52fb205eb1c3" ' 替换成你添加APPID的appkey
          '参数c4d963e9158444b7b71e52fb205eb1c3 是短信模版，要替换成自己添加的
