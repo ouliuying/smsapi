@@ -82,7 +82,7 @@ public class SmsSender {
     {
         String timestamp=getUnixTimeStamp();
         String digest=signDigest(this._appid,this._appkey,mobile,timestamp);
-        String data=String.format("ac=sendsms&mobile=%s&extno=%s&appid=%s&digest=%s&timestamp=%s&msg=%s",mobile,extno,this._appid,digest,msg);
+        String data=String.format("ac=sendsms&mobile=%s&extno=%s&appid=%s&digest=%s&timestamp=%s&msg=%s",mobile,extno,this._appid,digest,timestamp,msg);
         String retmsg=_post(data);
         return retmsg;
     }
