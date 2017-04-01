@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 author: ouyang2008
  code is free
@@ -36,7 +36,7 @@ class SmsSender
     {
        $timestamp=$this->getUnixTimeStamp();
        $digest=md5("$this->appid".md5($this->appkey)."$timestamp"."$mobile");
-       $pdata="ac=sendsms&mobile=".$mobile."&extno=".$extno."&appid=".$this->appid."&timestamp=".$timestamp."&digest=".$digest."msg=".$msg;
+       $pdata="ac=sendsms&mobile=".$mobile."&extno=".$extno."&appid=".$this->appid."&timestamp=".$timestamp."&digest=".$digest."&msg=".$msg;
        $http=new HttpClient();
        $ret=$http->post($this->apiurl,$pdata);
        if(!$ret)
